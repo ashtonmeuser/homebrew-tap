@@ -3,6 +3,7 @@ class Doubleshot < Formula
   homepage "https://github.com/ashtonmeuser/doubleshot"
   url "https://github.com/ashtonmeuser/doubleshot/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "d5f51139a63c0e66fd9e7a5853f6fe78d34bc8efcb6343ff328384a6a9471191"
+  revision 1
 
   depends_on "go" => :build
   depends_on arch: :arm64
