@@ -5,9 +5,9 @@ class Doubleshot < Formula
   sha256 "a00e232d32b797da7386e8528f01ba32d5a9fa69b1435b1806f90b429459a654"
 
   bottle do
-    root_url "https://github.com/ashtonmeuser/homebrew-tap/releases/download/doubleshot-0.1.0_1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "62c1ef412610a9ed6995366dda3e02353e36af77945d340c5257c418bf17d423"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "99222baec760dbf0f884aa3cfce5e476bd332ee2ebda8fdf2a9c3400c7504302"
+    root_url "https://github.com/ashtonmeuser/homebrew-tap/releases/download/doubleshot-0.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "ba0b6372a004a5b845858a6854cd7b991fafd0bdfcc4a42a2d227ee9079e43ec"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c48bb528d024bf925a12656ab64c6cb50c6171d3f980250bb466294918f5bada"
   end
 
   depends_on "go" => :build
