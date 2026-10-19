@@ -1,9 +1,8 @@
 class Doubleshot < Formula
   desc "Like caffeinate, with the lid closed"
   homepage "https://github.com/ashtonmeuser/doubleshot"
-  url "https://github.com/ashtonmeuser/doubleshot/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d5f51139a63c0e66fd9e7a5853f6fe78d34bc8efcb6343ff328384a6a9471191"
-  revision 1
+  url "https://github.com/ashtonmeuser/doubleshot/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a00e232d32b797da7386e8528f01ba32d5a9fa69b1435b1806f90b429459a654"
 
   bottle do
     root_url "https://github.com/ashtonmeuser/homebrew-tap/releases/download/doubleshot-0.1.0_1"
